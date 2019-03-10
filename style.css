@@ -1,0 +1,40 @@
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/bg.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.nav
+{
+    margin: 15;
+}
+
+.nav-pills .nav-link
+{
+    color: white;
+    border-radius: 30px;
+}
+
+.nav-pills:hover .nav-link:hover
+{
+    color: rgb(212, 212, 212);
+}
+
+.nav-item
+{
+    margin: 2px;
+}
+
+.jumbotron
+{
+    background-color:#007bff;
+    height: auto;
+    color: white;
+    border-radius: 30px;
+}
+
+.page-footer
+{
+    color: white;
+}
