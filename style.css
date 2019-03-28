@@ -1,3 +1,8 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
 body
 {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/bg.jpg");
@@ -48,6 +53,7 @@ body
     height: auto;
     color: white;
     margin-bottom: 60px;
+    border-radius: 0px;
 }
 
 .faq img
@@ -70,4 +76,20 @@ body
 .my-internship
 {
     text-align: center;
+}
+
+.dropdown-menu
+{
+    background-color: rgba(0,123,255,0.5);
+    border: none;
+}
+
+.dropdown-item
+{
+    color: white;
+}
+
+.dropdown-divider
+{
+    border-top: transparent;
 }
