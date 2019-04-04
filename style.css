@@ -82,11 +82,18 @@ body
 {
     background-color: rgba(0,123,255,0.5);
     border: none;
+    border-radius: 30px;
 }
 
 .dropdown-item
 {
     color: white;
+}
+
+.dropdown-item:hover
+{
+    background-color: transparent;
+    color: rgb(212, 212, 212);
 }
 
 .dropdown-divider
