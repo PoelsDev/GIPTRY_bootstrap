@@ -100,3 +100,23 @@ body
 {
     border-top: transparent;
 }
+
+.burger-menu
+{
+    padding: 0px;
+}
+
+.navbar
+{
+    background-color: rgba(0,123,255,0.5);
+}
+
+.navbar .dropdown-menu
+{
+    background-color: transparent;
+}
+
+.navbar .nav-item
+{
+    color:white;
+}
