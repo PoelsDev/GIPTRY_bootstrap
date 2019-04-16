@@ -29,7 +29,7 @@ body
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link 
 {
-    background-color: rgba(0,123,255,0.5);
+    background-color: rgba(0, 123, 255, 0.5);
 }
 
 .nav-pills:hover .nav-link:hover
@@ -64,6 +64,16 @@ body
 .page-footer
 {
     color: white;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.btn-pdf
+{
+    margin: 20px;
+    border-radius: 30px;
+    background-color: rgba(0,123,255,0.5);
 }
 
 .carousel

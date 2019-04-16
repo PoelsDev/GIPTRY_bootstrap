@@ -1,0 +1,122 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/bg.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.nav
+{
+    margin: 15px;
+}
+
+
+.nav-pills .nav-link
+{
+    color: white;
+    border-radius: 30px;
+}
+
+.nav-pills .nav-link.active
+{
+    background-color: rgba(0,123,255,0.5);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link 
+{
+    background-color: rgba(0, 123, 255, 0.5);
+}
+
+.nav-pills:hover .nav-link:hover
+{
+    color: rgb(212, 212, 212);
+}
+
+.home-container-fluid
+{
+    padding: 0px;
+}
+
+.nav-item
+{
+    margin: 2px;
+}
+
+.jumbotron
+{
+    background-color: rgba(0,123,255,0.5);
+    height: auto;
+    color: white;
+    margin-bottom: 60px;
+    border-radius: 0px;
+}
+
+.faq img
+{
+   margin-bottom: 20px; 
+}
+
+.page-footer
+{
+    color: white;
+}
+
+.carousel
+{
+    width: auto;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.my-internship
+{
+    text-align: center;
+}
+
+.dropdown-menu
+{
+    background-color: rgba(0,123,255,0.5);
+    border: none;
+    border-radius: 30px;
+}
+
+.dropdown-item
+{
+    color: white;
+}
+
+.dropdown-item:hover
+{
+    background-color: transparent;
+    color: rgb(212, 212, 212);
+}
+
+.dropdown-divider
+{
+    border-top: transparent;
+}
+
+.burger-menu
+{
+    padding: 0px;
+}
+
+.navbar
+{
+    background-color: rgba(0,123,255,0.5);
+}
+
+.navbar .dropdown-menu
+{
+    background-color: transparent;
+}
+
+.navbar .nav-item
+{
+    color:white;
+}
