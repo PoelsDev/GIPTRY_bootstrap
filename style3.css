@@ -3,6 +3,8 @@
 html
 {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    border: 0px;
 }
 
 body
