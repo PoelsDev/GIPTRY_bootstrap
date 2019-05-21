@@ -171,3 +171,9 @@ body
     border-color: transparent;
     border-radius: 28px;
 }
+
+.title
+{
+    color:white;
+    text-align: center;
+}
