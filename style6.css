@@ -136,5 +136,10 @@ body
 .title
 {
     color:white;
-    text-align: center;
+    text-align: left;
+}
+
+.img-fluid
+{
+    margin-bottom: 10px;
 }

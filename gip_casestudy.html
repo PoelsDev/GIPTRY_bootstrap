@@ -1,0 +1,415 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link href="style6.css" rel="stylesheet">
+    <link rel="icon" href="extra/giplogo.png">
+    <title>GIP | Testopstelling - Case Study</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 d-none d-md-block d-lg-none d-lg-block d-xl-none d-none d-xl-block">
+                <ul class="nav nav-pills">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="extra/giplogo.png" width="40" height="40" alt="Responsive Image">
+                    </a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                            aria-expanded="false">GIP-Taken</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="gip_casestudy.html">Testopstelling</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Taak 2</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Taak 3</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Taak 4</a>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                            aria-expanded="false">Stage</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="dagverslagen.html" target="">Dagverslagen</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="stage_casestudy.html">Case Study</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="reportage_du_photo.html">Reportage Du Photo</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="analyse_huisstijl.html">Analyse: Huisstijl</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-12 d-block d-sm-none d-none d-sm-block d-md-none burger-menu">
+                <!-- navbar -->
+                <nav class="navbar navbar-fixed-top navbar-dark">
+                    <div class="container"></div>
+                    <!-- Hamburger Button  -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Tabs -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                    aria-haspopup="true" aria-expanded="false">GIP-Taken</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="gip_casestudy.html">Testopstelling</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Taak 2</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Taak 3</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Taak 4</a>
+                                </div>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                    aria-haspopup="true" aria-expanded="false">Stage</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="dagverslagen.html" target="">Dagverslagen</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="stage_casestudy.html">Case Study</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="reportage_du_photo.html">Reportage Du Photo</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="analyse_huisstijl.html">Analyse: Huisstijl</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            </nav>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+        <h2 class="title">Testopstelling: Raspberry Pi NAS (Network Attached Storage)</h2>
+    </div>
+    <div class="jumbotron">
+        <p>Ik heb gekozen om dit project te doen omdat ik denk dat het heel erg handig kan zijn voor mensen die (binnen
+            een lokaal netwerk) goed moeten kunnen samenwerken en veel bestanden moeten kunnen delen. Dit project kan
+            bijvoorbeeld voorkomen in kleinere bedrijven die veel gegevens moeten beschikbaar stellen voor de
+            werknemers maar geen nood hebben aan een “echte” grote server. Hier komt dit project dan echt tot de
+            redding, een Raspberry Pi NAS kan gemakkelijk 24/7 opstaan wegens zijn lage stroomverbruik.</p>
+
+        <h3>Benodigdheden:</h3>
+        <ul>
+            <li>Raspberry Pi (Ik gebruik het Raspberry Pi 3B+ Model)</li>
+            <li>SD-kaart (Ik gebruik 16GB)</li>
+            <li>Ethernet of WiFi</li>
+            <li>Externe harde schijf</li>
+            <li>(Het kan eventueel zijn dat de externe HD te veel stroom nodig heeft en dan zullen we gebruik moeten
+                maken van een USB Power Hub omdat de Pi-adapter niet genoeg levert.)</li>
+        </ul>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div style="text-align: center;"><img src="extra/RASP_03_01.png" class="img-fluid" width="300px"
+                            height="auto" alt="Responsive Image"></div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div style="text-align: center;"><img src="extra/sd.png" class="img-fluid" width="220px" height="auto"
+                            alt="Responsive Image"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <h3>Voorbereiding:</h3>
+        <p>Om te beginnen zullen we Raspbian (het standaard besturingssysteem van een Raspberry Pi) moeten installeren
+            op de Pi. Dit doen we door NOOBS te installeren op de SD-kaart. </p>
+        <p>NOOBS: <a href="https://www.raspberrypi.org/downloads/noobs/" target="_blank">NOOBS</a></p>
+        <p>NOOBS of New Out Of The Box Software is een gemakkelijke installatie manager voor het installeren van
+            Raspbian.</p>
+        <p>Nadat de NOOBS zip-file is gedownload mag ze in een lege map worden uitgepakt. Hierna kunnen we gebruik
+            maken van de SD Card Formatter om de SD-kaart te formatteren.</p>
+        <p>SD Card Formatter: <a href="https://www.sdcard.org/downloads/formatter/eula_windows/" target="_blank">SD
+                Card Formatter</a></p>
+        <p>Nu zullen we alle bestanden van NOOBS moeten selecteren en moeten kopiëren naar de SD-kaart. Daarna werpen
+            we de SD-kaart uit en steken we hem in de Raspberry Pi. Bij het opstarten van de Raspberry Pi zal meteen de
+            installatie manager opgestart worden. Hierin selecteren we “Raspbian” en klikken we vervolgens op
+            “Install”. Nu zal Raspbian geïnstalleerd worden op de Pi. Nadat het geïnstalleerd is zullen we nog enkele
+            instellingen moeten instellen zoals de locatie, tijd, … .</p>
+    </div>
+    <div class="jumbotron">
+        <p>Nu het besturingssysteem geïnstalleerd is zullen we SSH moeten aanzetten in de configuratie van de Pi. Dit
+            doen we hier:</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div style="text-align: center;"><img src="extra/enable_ssh.png" class="img-fluid" width="400px"
+                            height="auto" alt="Responsive Image"></div>
+                    <div style="text-align: center;"><img src="extra/enable_ssh2.png" class="img-fluid" width="400px"
+                            height="auto" alt="Responsive Image"></div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <p>Met SSH of Secure Shell kunnen we een remote Terminal openen op een ander toestel zoals
+                        bijvoorbeeld een Windows-pc.
+
+                        Dit kan heel erg handig zijn als we in de toekomst de Raspberry Pi hebben draaien zonder er een
+                        scherm, toetsenbord of muis aanhangt.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <h3>De NAS opstellen:</h3>
+        <p>Nu alle voorbereiding klaar is kunnen we beginnen met het echte werk: de NAS. De eerste stap hierbij is het
+            aankoppelen van de externe harde schijf. Dit is een belangrijke stap omdat we willen dat de Pi na reboot of
+            stroomverlies nog steeds dezelfde koppeling maakt met de HD.
+        </p>
+
+        <ol>
+            <li>
+                Open een Raspbian terminal en check of Raspbian up-to-date is:
+                <img src="extra/stap1_casestudy.png" class="img-fluid" width="220px" height="auto" alt="Responsive Image"></li>
+            <li>
+                Nu willen we dat de Pi NTFS ondersteund, dit doen we door het volgende pakket te installeren:
+                <img src="extra/stap2_casestudy.png" class="img-fluid" width="300px" height="auto" alt="Responsive Image"></li>
+
+            <li>
+                Hierna, zullen we de juiste schijf moeten zoeken:
+                <img src="extra/stap3_casestudy.png" class="img-fluid" width="150px" height="auto" alt="Responsive Image"></li>
+            <li>
+                Meestal zijn er twee schijven, de SD-kaart die meestal een gelijkaardige naam als deze heeft:
+                /dev/mmcblk0p1. Deze mag je negeren en meteen gaan naar de tweede die een gelijkaardige naam als deze
+                heeft: /dev/sda1.
+
+            </li>
+            <img src="extra/fdisk.jpg" class="img-fluid" width="650px" height="auto" alt="Responsive Image">
+            <li>Voor we de schijf gaan koppelen, hebben we een map nodig om ze aan te koppelen:
+                <img src="extra/stap5_casestudy.png" class="img-fluid" width="300px" height="auto" alt="Responsive Image">
+            </li>
+            <li>
+                We hebben ook een user nodig om mee in te loggen:
+                <img src="extra/stap6_casestudy.png" class="img-fluid" width="300px" height="auto" alt="Responsive Image">
+                <p>Het wachtwoord dat we hier invullen is ook het wachtwoord wat gebruikt zal worden om toegang te
+                    krijgen tot de NAS.</p>
+            </li>
+            <li>Nu hebben we van deze user de GID & de UID nodig.
+                <p>GID: id -g poels</p>
+                <p>UID: id -u poels</p>
+                <p>UID of User Identifier is een nummer wat het systeem geeft aan elke user. GID of Group Identifier is
+                    een nummer dat een groep op het systeem voorstelt. Deze beide nummers zijn erg belangrijk dus we
+                    zullen ze goed moeten bijhouden!</p>
+            </li>
+            <li>Daarna zullen we onze fstab file moeten aanpassen zodat de Pi automatisch bij de opstart de schijf
+                koppelt en de juiste rechten toewijst:
+                <img src="extra/stap8_casestudy.png" class="img-fluid" width="200px" height="auto" alt="Responsive Image">
+                <p>Fstab of file system table file is een systeem configuratie bestand.</p>
+            </li>
+            <li>Vul in de file deze laatste lijn in (met de naam van uw schijf en uw unieke UID & GID): </li>
+            <img src="extra/fstab.jpg" class="img-fluid" width="650px" height="auto" alt="Responsive Image">
+            <p>We zullen de Pi nu moeten herstarten zodat de schijf de juiste rechten krijgt.</p>
+        </ol>
+    </div>
+    <div class="jumbotron">
+        <h3>De Samba Server opstellen:</h3>
+        <p>In de volgende stap zullen we een Samba Server moeten installeren op onze Raspberry Pi. Samba is een gratis
+            softwarepakket dat bestand- en printservices aanbiedt. Het wordt ook gebruikt bij Windows Server omdat het
+            perfect kan integreren met een DC en omdat het AD ondersteund.</p>
+        
+        <ol>
+            <li>Samba installeren:
+                <img src="extra/samba1.png" class="img-fluid" width="500px" height="auto" alt="Responsive Image">
+            </li>
+            <li>Nu zullen we de Samba configuratie moeten aanpassen:
+                <img src="extra/samba2.png" class="img-fluid" width="300px" height="auto" alt="Responsive Image">
+            </li>
+            <li>In deze configuratie moeten we de NAS toevoegen als share. Dit doen we door onderaan in de conf-file het volgende toe te voegen:</li>
+            <img src="extra/smbconf.jpg" class="img-fluid" width="650px" height="auto" alt="Responsive Image">
+            <p>Uitleg:</p>
+            <ul>
+                <li>
+                    [NAS]: naam van de share.
+                </li>
+                <li>
+                    Comment: Commentaar geassocieerd aan de share.
+                </li>
+                <li>
+                    Path: Pad naar de map die we delen.
+                </li>
+                <li>
+                    Valid User: Een lijst van gebruikers die toegang hebben tot de share.
+                </li>
+                <li>
+                    Force Group: Een groepsnaam die toegewezen wordt aan alle gebruikers die verbinden met de share.
+                </li>
+                <li>
+                    Directory Mask: Een masker die rechten toewijst aan de mappen die op de share gemaakt worden.
+                </li>
+                <li>
+                    Read Only: Hiermee kan je de share read-only maken.   
+                </li>
+            </ul>
+            <li>
+                Wat ons nu nog resteert is de Samba Server opnieuw opstarten en de reeds gemaakte user toevoegen:
+                <p>Opnieuw opstarten:</p>
+                <img src="extra/samba3.png" class="img-fluid" width="300px" height="auto" alt="Responsive Image">
+                <p>User toevoegen:</p>
+                <img src="extra/samba4.png" class="img-fluid" width="280px" height="auto" alt="Responsive Image">
+            </li>
+        </ol>
+    </div>
+    <div class="jumbotron">
+        <h3>De NAS testen:</h3>
+        <p>Om de NAS te testen op een Windows-pc moeten we simpelweg Verkenner openen, gaan naar Netwerk>RASPBERRYPI>nas.</p>
+        <p>Nu zullen moeten inloggen met onze user:</p>
+        <div style="text-align: center;"><img src="extra/login.png" class="img-fluid" width="650px" alt="Responsive Image"></div>
+    </div>
+    <div class="jumbotron">
+        <h3>Troubleshooting:</h3>
+        <ol>
+            <li>
+                Toetsenbord & muis werken niet wegens gebrek aan stroom:
+                Bij dit probleem komt onze voorbereiding erg goed van pas. We hebben SSH ingeschakeld wat wilt zeggen dat we vanop afstand makkelijk een terminal kunnen openen.
+                <p>Ik gebruik hiervoor het programma PuTTY. Dit gebruiksvriendelijk programma geeft ons de mogelijkheid om zo’n terminal te openen als we het IP van onze Pi weten. (Meestal is dit: 192.168.0.193).
+                    Dit geven we dan in en we drukken op Open:</p>
+            </li>
+            <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div style="text-align: center;"><img src="extra/PuTTY1.png" class="img-fluid" width="400px"
+                                    height="auto" alt="Responsive Image"></div>
+                            <div style="text-align: center;"><img src="extra/PuTTY2.png" class="img-fluid" width="650px"
+                                    height="auto" alt="Responsive Image"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <p>In de terminal zal je moeten inloggen met je pi gebruiker die je bij de installatie van Raspbian hebt gemaakt.</p>
+                            <p>Deze terminal is niet alleen handig bij een stroomgebrek maar ook als we de Raspberry Pi NAS al een tijd gebruiken zonder accessoires en we willen aanpassingen doen of hem uitschakelen.</p>
+                        </div>
+                    </div>
+            </div>
+
+            <p>Dit ziet er dan als volgt uit:</p>
+            <div style="text-align: center;"><img src="extra/rasp_noAccessoires.jpg" class="img-fluid" width="600px" alt="Responsive Image"></div>
+
+            <p>Commando voor een shutdown:</p>
+            <div style="text-align: center;"><img src="extra/PuTTY3.png" class="img-fluid" width="600px" alt="Responsive Image"></div>
+
+            <li>Bij het openen van de share op een Windows-pc krijgen we volgende Error:
+                <div style="text-align: center;"><img src="extra/geentoegang.png" class="img-fluid" width="600px" alt="Responsive Image"></div>
+                <p>Dit is een error die vaker voorkomt bij Windows 10 en heeft te maken met de SMB & CIFS netwerkprotocollen. Het kan daarentegen erg makkelijk worden opgelost, en dit allemaal op meerdere manieren! Hier is de manier die ik heb gebruikt:</p>
+                <ul>
+                    <li>
+                        Open gpedit.msc
+                    </li>
+                    <li>
+                        Ga naar Computerconfiguratie > Beheersjablonen > Netwerk > Lanman-werkstation > Onveilige gastaanmeldingen inschakelen > Ingeschakeld 
+                        <div style="text-align: center;"><img src="extra/gpedit.png" class="img-fluid" width="1000px" alt="Responsive Image"></div>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <div class="jumbotron">
+        <h3>Conclusie:</h3>
+        <p>Ik denk dat dit project een erg makkelijk en goedkoop alternatief is voor een kleine media server wegens de lage stroomkosten, kosten om het te kopen en de moeilijkheidsgraad van het project.</p>
+        <p>Daarentegen is het ook niet geschikt voor iedereen, zeker niet voor mensen die graag een snelle opslagplaats hebben. De snelheden zijn te doen maar zeker niet denderend.</p>
+        <h4>Enkele foto's:</h4>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="extra/rasp1.jpg" class="d-block w-100" alt="..." style="height: 100%; Object-fit: contain;">
+              </div>
+              <div class="carousel-item">
+                <img src="extra/rasp2.jpg" class="d-block w-100" alt="..." style="height: 100%; Object-fit: contain;">
+              </div>
+              <div class="carousel-item">
+                <img src="extra/rasp3.jpg" class="d-block w-100" alt="..." style="height: 100%; Object-fit: contain;">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer id="contact" class="page-footer font-small blue pt-4">
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase">Contact</h5>
+                    <p>Contacteer me gerust bij vragen!</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Media</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://github.com/thibaultp-immalle" target="_blank"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://gitlab.com/ThibaultP-immalle" target="_blank"><i class="fab fa-gitlab"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:thibault.poels@immalle.be" target="_blank"><i class="fas fa-envelope-square"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="">Thibault Poels</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
