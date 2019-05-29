@@ -50,6 +50,12 @@ body
 .slidescontainer 
 {
     padding: 0px;
+    margin-bottom: 20px;
+}
+
+.pdf-container
+{
+    margin-bottom: 20px;
 }
 
 .nav-item
