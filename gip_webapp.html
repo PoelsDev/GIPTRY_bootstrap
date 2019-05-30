@@ -8,9 +8,9 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
-  <link href="style2.css" rel="stylesheet">
+  <link href="style3.css" rel="stylesheet">
   <link rel="icon" href="extra/giplogo.png">
-  <title>GIP | Stage - Case Study</title>
+  <title>GIP | Web Application</title>
 </head>
 
 <body>
@@ -102,28 +102,39 @@
       </nav>
     </div>
   </div>
-  </div>
-  <h1 class="title">Stage: Case Study</h1>
+  <h1 class="title">GIP Web Application: AnimaLog</h1>
   <div class="jumbotron">
-    <p>Tijdens mijn stage in VanRoey.be hebben we een case study gemaakt over het realiseren van een klein lokaal netwerk met een eigen toegewijde server. Hierbij zijn we gestart van nul, we bouwden eerst een desktop die als server ging dienen. Op deze desktop hebben we Windows Server 2016 gezet. Het netwerkje bevatte ook een interne website die we gehost hebben via de IIS-service van Microsoft.</p>
-    <p>Het netwerkje:</p>
-    <div style="text-align: center;"><img src="extra/netwerk.JPG" width="500px" class="img-fluid" alt="Responsive Image"></div>
-    <p>
-    <p>Hieronder vindt u ook een PDF waarop de case study uitgebreid is uitgelegd.</p>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12 d-none d-md-block d-lg-none d-lg-block d-xl-none d-none d-xl-block">
-        <embed src="extra/GIPTaak05_Case_Study.pdf" type="application/pdf" width="100%" height="65%">
-      </div>
-      <div class="col-lg-12 d-block d-sm-none d-none d-sm-block d-md-none burger-menu text-center">
-        <a class="btn-pdf btn btn-primary" target="_blank" href="extra/GIPTaak05_Case_Study.pdf" role="button">Open PDF</a>
-      </div>
+    <p>AnimaLog is een webapplicatie die bedoeld is om een logboek bij te houden over je huisdieren. Een user heeft één
+      of meerdere huisdieren. Elk huisdier heeft ook een lijst van logs over zijn voorbije consultaties met een
+      dierenarts. Huisdiereigenaren met veel dieren kunnen op deze manier bij een ziek dier de logs consulteren om te
+      checken of het een reeds gebeurd probleem is dat opnieuw optreed.</p>
+    <p>Een log zal de behandelingsnaam bevatten, de prijs van de behandeling, de datum, de naam van de dierenarts en het Id van het huisdier van toepassing.</p>
+    <p>De info die wordt bijgehouden over het huisdier is de volgende: (Id), Eigenaar Id, Soort, Leeftijd, Geslacht, Foto.</p>
+    <p>Van de user: Id, Naam, E-mail, paswoord, aantal huisdieren.</p>
+    <div style="text-align: center;">
+        <h3 style="color:white;">ER-diagram:</h3>
+        <img src="extra/er_diagram.png" class="img-fluid" width="auto" height="auto" alt="Responsive Image">
+        <p></p>
+        <h3 style="color:white;">Table-diagram:</h3>
+        <img src="extra/table_diagram.png" class="img-fluid" width="auto" height="auto" alt="Responsive Image">
+        <p></p>
+        <h3 style="color:white;">Use-case:</h3>
+        <h4 style="color:white;">Logged On User:</h4>
+        <img src="extra/loggend_on_user.png" class="img-fluid" width="auto" height="auto" alt="Responsive Image">
+        <p></p>
+        <h4 style="color:white;">Visitor:</h4>
+        <img src="extra/visitor.png" class="img-fluid" width="auto" height="auto" alt="Responsive Image">
     </div>
+    <p></p>
+    <h3 style="color:white;">Technologie:</h3>
+    <h4 style="color:white;">Back-end:</h4>
+    <p>SQLite & Flask</p>
+    <h4 style="color:white;">Front-end:</h4>
+    <p>HTML/CSS</p>
+    <p>Ik maak de tussenweg tussen front- & backend.</p>
   </div>
   </div>
-
-
+  </div>
 
   <!-- Footer -->
   <footer id="contact" class="page-footer font-small blue pt-4">
